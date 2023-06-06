@@ -24,8 +24,8 @@ jspm_packages/
 .env.local
 
 # vitepress build output
-.vitepress/cache
-.vitepress/dist
+**/.vitepress/cache
+**/.vitepress/dist
 
 # yarn v2
 .yarn/cache
