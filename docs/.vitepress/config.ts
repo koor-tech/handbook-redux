@@ -18,10 +18,22 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Company',
         items: [
-          { text: 'Company', link: '/company/' },
-          { text: 'Employees', link: '/employees/' },
+          { text: 'Overview', link: '/company/' },
+          { text: 'Goals', link: '/company/goals' },
+          { text: 'Vision', link: '/company/vision' },
+          { text: 'Mission', link: '/company/mission' },
+        ],
+      }, {
+        text: 'Employees', 
+        items: [
+          { text: 'Overview', link: '/employees/' },
+          { text: 'Performance', link: '/employees/performance' },
+        ],
+      }, {
+        text: 'Development',
+        items: [
           { text: 'Development', link: '/development/' }
         ]
       }
