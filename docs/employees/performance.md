@@ -4,6 +4,12 @@
 
 At Koor Technologies, Inc., performance feedback is a continuous process. We give feedback (especially negative) as soon as possible. Most feedback will happen during 1:1 meetings, if not sooner. We evaluate and update compensation decisions yearly, shortly after the anniversary of a team member's start date.
 
+### Giving a manager feedback
+
+Any one-on-one meeting is a good opportunity to give feedback to your manager. It could be about ideas for improving business operations, or it might be about an individual experience that you enjoyed or wish had been handled differently. Everyone can improve by hearing feedback and making adjustments. Your manager should listen to your ideas and try to see the merit in what you are saying.
+
+If you feel uncomfortable giving your manager direct feedback about a particular topic, talk to your manager's manager, and ask to remain anonymous.
+
 ## Performance reviews
 
 Starting in June 2023, we are beginning a team member review cycle to provide feedback on job performance and career growth. Some important context:
@@ -22,8 +28,10 @@ Starting in June 2023, we are beginning a team member review cycle to provide fe
 Each performance review has three sections:
 
 1. Major accomplishments - to reflect on completed goals
-2. Peer feedback - a summary of anonymized observations, notable situations, and patterns worth considering
-3. Manager reflection and look ahead - highlighting improvement areas and guidance for the future
+2. Feedback
+   - A summary of anonymized observations, notable situations, and patterns worth considering
+   - If applicable, areas that are below expectations and require improvement
+3. Manager reflection and guidance
 
 ### Quarterly performance check-up
 
