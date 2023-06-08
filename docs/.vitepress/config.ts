@@ -2,8 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Koor Handbook :: Koor Technologies, Inc.",
+  title: "Koor Handbook",
+  titleTemplate: ':title | Koor Technologies, Inc.',
   description: "How we run our business",
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'koor-logo.png',

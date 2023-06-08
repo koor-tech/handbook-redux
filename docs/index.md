@@ -8,11 +8,11 @@ hero:
   tagline: Daily, incremental improvement
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Company Goals
+      link: /company/goals
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Development
+      link: /development/
 
 features:
   - title: Company
