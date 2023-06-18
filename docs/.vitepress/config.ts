@@ -19,6 +19,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Company', link: '/company/' },
       { text: 'Employees', link: '/employees/' },
+      { text: 'Consulting', link: '/consulting/' },
       { text: 'Development', link: '/development/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
@@ -38,6 +39,16 @@ export default defineConfig({
           { text: 'Overview', link: '/employees/' },
           { text: 'Performance', link: '/employees/performance' },
         ],
+      }, {
+        text: 'Consulting',
+        items: [
+          { text: 'Consulting Practice', link: '/consulting/' },
+          { text: 'Tracking Hours', link: '/consulting/tracking' },
+          { text: 'Assessments', link: '/consulting/assessments' },
+          { text: 'Keeping in Touch', link: '/consulting/keeping-in-touch' },
+          { text: 'Performance Tuning', link: '/consulting/performance-tuning' },
+          { text: 'Troubleshooting', link: '/consulting/troubleshooting' }
+        ]
       }, {
         text: 'Development',
         items: [
