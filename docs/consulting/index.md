@@ -12,7 +12,7 @@ This section of the handbook describes how we take care of customers with consul
 - [Keeping in touch](./keeping-in-touch)
 - [System assessments](./assessments)
 - [Performance tuning](./performance-tuning)
-- [System assessments](./troublshooting)
+- [System assessments](./troubleshooting)
 
 ## Operations
 
