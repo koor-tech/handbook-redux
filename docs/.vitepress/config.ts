@@ -31,7 +31,7 @@ export default defineConfig({
           { text: 'Overview', link: '/company/' },
           { text: 'Goals', link: '/company/goals', items: [
             {
-              text: 'Stragey for Adoption',
+              text: 'Strategy for Adoption',
               link: '/company/strategy-for-adoption'
             }
           ]},
