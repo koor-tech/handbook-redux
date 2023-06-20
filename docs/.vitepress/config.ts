@@ -29,7 +29,12 @@ export default defineConfig({
         text: 'Company',
         items: [
           { text: 'Overview', link: '/company/' },
-          { text: 'Goals', link: '/company/goals' },
+          { text: 'Goals', link: '/company/goals', items: [
+            {
+              text: 'Stragey for Adoption',
+              link: '/company/strategy-for-adoption'
+            }
+          ]},
           { text: 'Vision', link: '/company/vision' },
           { text: 'Mission', link: '/company/mission' },
         ],

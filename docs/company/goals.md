@@ -20,6 +20,7 @@
    1. Revamp website messaging to target DIY, our current customer base
    2. Add knowledge center to website: blog, use cases, how-to videos, Koor documentation
    3. Post a demo video showing the benefits of KSD, setting up one of the use cases
+   4. See the [strategy for adoption](./strategy-for-adoption)
 2. TECHNOLOGY: 
    1. Add 5 improvements to KSD
    2. Make 15 technical contributions to Rook and Ceph
