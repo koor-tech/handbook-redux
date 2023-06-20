@@ -31,7 +31,7 @@ export default defineConfig({
           { text: 'Overview', link: '/company/' },
           { text: 'Goals', link: '/company/goals', items: [
             {
-              text: 'Stragey for Adoption',
+              text: 'Strategy for Adoption',
               link: '/company/strategy-for-adoption'
             }
           ]},
@@ -57,7 +57,8 @@ export default defineConfig({
       }, {
         text: 'Development',
         items: [
-          { text: 'Development', link: '/development/' }
+          { text: 'Development', link: '/development/' },
+          { text: 'Release Management', link: '/development/release-management' },
         ]
       }
     ],
