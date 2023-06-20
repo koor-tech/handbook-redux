@@ -57,7 +57,8 @@ export default defineConfig({
       }, {
         text: 'Development',
         items: [
-          { text: 'Development', link: '/development/' }
+          { text: 'Development', link: '/development/' },
+          { text: 'Release Management', link: '/development/release-management' },
         ]
       }
     ],
