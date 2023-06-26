@@ -57,7 +57,8 @@ export default defineConfig({
       }, {
         text: 'Development',
         items: [
-          { text: 'Development', link: '/development/' },
+          { text: 'Software Development', link: '/development/' },
+          { text: 'KSD Product Roadmap', link: '/development/ksd-product-roadmap' },
           { text: 'Release Management', link: '/development/release-management' },
         ]
       }
