@@ -31,5 +31,5 @@ The Koor Storage Distribution includes features that work on top of Rook and Cep
 | Feature   |   State   | Description                     |
 | --------- |   :---:   | ------------------------------- |
 | Extended Ceph Exporter | [1.2.8 released](https://github.com/koor-tech/extended-ceph-exporter/releases/tag/extended-ceph-exporter-1.2.8) | Prometheus exporter to provide "extended" metrics about a Ceph cluster's running components |
-| Gather Info | internal | Scripts to collect Ceph operational data to understand performance characteristics of the system |
+| Gather Info | public | [unreleased] Scripts to collect Ceph operational data to understand performance characteristics of the system |
 
