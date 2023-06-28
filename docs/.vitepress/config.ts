@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+// @ts-expect-error build issue with the plugin, but withMermaid is being exported, so works fine
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
