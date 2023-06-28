@@ -56,6 +56,7 @@ export default withMermaid(
             { text: 'Consulting Practice', link: '/consulting/' },
             { text: 'Tracking Hours', link: '/consulting/tracking' },
             { text: 'Assessments', link: '/consulting/assessments' },
+            { text: 'Customer Calls', link: '/consulting/customer-calls' },
             { text: 'Keeping in Touch', link: '/consulting/keeping-in-touch' },
             {
               text: 'Performance Tuning',
@@ -76,6 +77,7 @@ export default withMermaid(
               text: 'Release Management',
               link: '/development/release-management',
             },
+            { text: 'Infrastructure', link: '/development/infrastructure' },
           ],
         },
       ],
