@@ -78,6 +78,15 @@ export default withMermaid(
               link: '/development/release-management',
             },
             { text: 'Infrastructure', link: '/development/infrastructure' },
+            {
+              text: 'Demo System',
+              items: [
+                {
+                  text: 'Overview',
+                  link: '/development/demo/',
+                },
+              ],
+            },
           ],
         },
       ],
