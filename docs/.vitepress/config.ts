@@ -85,6 +85,10 @@ export default withMermaid(
                   text: 'Overview',
                   link: '/development/demo/',
                 },
+                {
+                  text: 'Impl Notes',
+                  link: '/development/demo/impl-notes-take-1',
+                },
               ],
             },
           ],

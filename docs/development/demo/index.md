@@ -22,10 +22,7 @@ When complete, the demo system should be spun up and down through automation. In
 This a list of specific points that the demo system needs to handle. Let's add everything we can think of to the list. If it gets long, we can organize into sublists. In any case, we will group the requirements into development milestones.
 
 1. Include the yaml for setting up the K8s cluster.
-   1. Should we allow for different size environments?
-      1. Could start with a single machine/VM, but that's not right for production. 
-      2. Maybe we start at a 3-machine minimum. 
-      3. We recommend 4 nodes, so should those be across 4 machines/VMs?
+   1. Start with a minimum for production where things work under light-to-medium loads.
    2. Would be nice to pick from a library of configuration patterns that match common use cases.
 2. Use the latest KSD release to set up Rook Ceph.
    1. Great if installation is automated.
@@ -45,16 +42,19 @@ Here's a diagram of the demo system.
 
 ![Demo System Design](demo-system-design.drawio.svg)
 
-(This is in draw.io [here](https://app.diagrams.net/#G1Es8ikJ0fN7b4BJiUpxWnaxQPSSkZK5Mg). Dave is the owner.)
+(This is in draw.io [here](https://app.diagrams.net/#G1Es8ikJ0fN7b4BJiUpxWnaxQPSSkZK5Mg). Ask Dave if you want to collaborate or get a copy.)
 
-While drawing this picture, lots of questions come to mind.
+Notes about the diagram:
 
-1. The picture shows a minimum of 6 servers, including 3 servers dedicated to Ceph storage. Is that really the minimum? We recommend 4, so would we need Storage Node N to live up to our recommendation?
-2. Should each storage node have a minimum of 3 drives? Or is enough to have one per node?
-3. How much data capacity will the "smallest production system" have?
-4. What is missing from this diagram?
+1. The picture shows a minimum of 7 servers, including 4 servers dedicated to Ceph storage. We recommend customer use 4 nodes so that Ceph can recovery gracefully if any one node goes out.
+2. Each node will have a minimum of 2 drives for basic redundancy. Most systems will have more, but never fewer.
+   1. Storage nodes will always have the same number of drives, so if we add 1 drive, we're adding 4 (assuming 4 nodes).
+3. What is missing from this diagram?
    1. Alex: If we want to use CephFS (filesystem) or RGW (object storage), it would introduce MDS or RGW daemons to the cluster, not necessarily on all the storage nodes as we would need to scale based on the load, though as always minimum 2 per storage type then for HA.
-5. What is wrong with the diagram?
+
+Does anything else need to be added to the diagram? Any corrections?
+
+**Note: We should remember to adjust the picture as the system evolves. In fact, deviations should start as changes to this design. We should also docuemnt the things we try.**
 
 ## Implementation details
 
@@ -67,10 +67,18 @@ Better to get the design right (as least as much as we can figure out) before bu
 And we'll make mistakes, so that's the cost of learning.
 
 Some decisions:
-* Let's use Ubuntu 22.04 -- it's available on Hetzner and AWS, and it's aligned with Canonical, not RedHat.
+
+* Provision VMs on Hetzner first.
+  * We can also try AWS or GCP once things are working on Hetzner if we want to compare the hosting experience. Customers will have their own preference for hosting.
+  * Pretty sure we don't want to pay for a bare metal system that we self-host.
+* Let's use Ubuntu 22.04
+  * It's available on Hetzner and AWS, which means it's popular.
+  * It's aligned with Canonical, not RedHat. (I read something about Centos losing support? And other shenanegans.)
 * We will use kubeadm, since we are building a production-style system.
 * We will use CRI-O for container management because that's what K8s recommends.
-* We will run Postgres because it rocks!
+* We will run a Postgres database for that part of the system because it rocks!
 * For deployment, we will check out [KubeOne](https://github.com/kubermatic/kubeone)
 
+Let's keep notes about what we try. Sort of an inventor's journal.
 
+[Implementation Notes for original build of demo system](impl-notes-take-1)
