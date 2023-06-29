@@ -53,6 +53,7 @@ While drawing this picture, lots of questions come to mind.
 2. Should each storage node have a minimum of 3 drives? Or is enough to have one per node?
 3. How much data capacity will the "smallest production system" have?
 4. What is missing from this diagram?
+   1. Alex: If we want to use CephFS (filesystem) or RGW (object storage), it would introduce MDS or RGW daemons to the cluster, not necessarily on all the storage nodes as we would need to scale based on the load, though as always minimum 2 per storage type then for HA.
 5. What is wrong with the diagram?
 
 ## Implementation details
@@ -65,12 +66,11 @@ Better to get the design right (as least as much as we can figure out) before bu
 
 And we'll make mistakes, so that's the cost of learning.
 
-### Holy wars (and I'm not talking about anyone's religion)
-
-1. What flavor of Linux should we use?
-2. Which container: containerd or CRI-O?
-3. Which databse (as a demo app): Postgres, MySQL, Hadoop...?
-4. kubeadm or minikube?
-5. any other big choices to make?
+Some decisions:
+* Let's use Ubuntu 22.04 -- it's available on Hetzner and AWS, and it's aligned with Canonical, not RedHat.
+* We will use kubeadm, since we are building a production-style system.
+* We will use CRI-O for container management because that's what K8s recommends.
+* We will run Postgres because it rocks!
+* For deployment, we will check out [KubeOne](https://github.com/kubermatic/kubeone)
 
 
