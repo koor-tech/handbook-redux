@@ -14,9 +14,9 @@ The Koor Storage Distribution includes features that work on top of Rook and Cep
 
 | Feature   |   State   | Description                     |
 | --------- |   :---:   | ------------------------------- |
-| something | [0.2.0 released](https://github.com/koor-tech/koor-operator/releases/tag/koor-operator-0.2.0) | describe something it does already |
-| version update notifications | in development |  a brief statement of what this will do |
-| automated Ceph upgrades | future | a brief statement of what this will do |
+| Installing rook | [0.2.0 released](https://github.com/koor-tech/koor-operator/releases/tag/koor-operator-0.2.0) | Installs rook and checks if the cluster resources match recommendations |
+| Version update notifications | in development |  sends a notification whenever a new version of rook or ceph is released and ready for use |
+| Automated Ceph upgrades | future | Automatically upgrades the cluster to the latest available version of rook or ceph |
 
 
 ### Security
