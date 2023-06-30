@@ -24,6 +24,7 @@ There are two parts to the process
 * Make sure dependencies are up to date.
 * After review and merge of this PR, along with others, we follow the Rook release guide, to make a major release.
 * After this Create a new release branch from koor-tech/koor master, the branch should be named as `release-x.xx`, eg,
+* Verify and add missing CRDs by running `make crds helm-docs generate-docs-crds`
 
 ```console
 $ git checkout -b release-1.12
@@ -34,6 +35,7 @@ $ git checkout -b release-1.12
 
 * To the existing release branch(created at time of major release), merge Rook upstream release branch commits.
 * Merge our backport commits if any to the koor/release-${version} branch
+* Verify and add missing CRDs by running `make crds helm-docs generate-docs-crds`
 * Follow the steps for triggering release builds after the above steps.
 
 ### Steps for triggering release builds
