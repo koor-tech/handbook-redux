@@ -2,7 +2,7 @@
 title: Koor Software Development
 ---
 
-# Software Development
+# Development Practices
 
 ## Dev Process
 

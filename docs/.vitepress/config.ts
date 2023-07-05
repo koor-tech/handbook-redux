@@ -68,11 +68,11 @@ export default withMermaid(
         {
           text: 'Development',
           items: [
-            { text: 'Software Development', link: '/development/' },
             {
-              text: 'KSD Product Roadmap',
-              link: '/development/ksd-product-roadmap',
+              text: 'Product Roadmap',
+              link: '/development/product-roadmap',
             },
+            { text: 'Development Practices', link: '/development/' },
             {
               text: 'Release Management',
               link: '/development/release-management',
