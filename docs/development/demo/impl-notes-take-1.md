@@ -142,36 +142,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 ```
 
-Initialize a cluster with: `kubeadm init`
-
-
-### Install Cilium (or whichever Pod network works for you)
-
-::: warning
-This didn't work because the cluster is not named yet.
-DONE - troubleshoot, might need to initialize the cluster first
-TODO - test that init works and Cilium install works after that
-:::
-
-* Install Cilium CLI
-
-```sh
-CILIUM_CLI_VERSION=$(curl -s https://raw.githubusercontent.com/cilium/cilium-cli/master/stable.txt)
-CLI_ARCH=amd64
-if [ "$(uname -m)" = "aarch64" ]; then CLI_ARCH=arm64; fi
-curl -L --fail --remote-name-all https://github.com/cilium/cilium-cli/releases/download/${CILIUM_CLI_VERSION}/cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}
-sha256sum --check cilium-linux-${CLI_ARCH}.tar.gz.sha256sum
-sudo tar xzvfC cilium-linux-${CLI_ARCH}.tar.gz /usr/local/bin
-rm cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}apt 
-```
-
-
-* Now install Cilium with `cilium install`
-
-
 ### Forwarding IPv4 and letting iptables see bridged traffic
-
-**Note: might be best to set this up before installing kubeadm, etc.**
 
 ```sh
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
@@ -179,8 +150,8 @@ overlay
 br_netfilter
 EOF
 
-sudo modprobe overlay
-sudo modprobe br_netfilter
+modprobe overlay
+modprobe br_netfilter
 
 # sysctl params required by setup, params persist across reboots
 cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
@@ -190,7 +161,7 @@ net.ipv4.ip_forward                 = 1
 EOF
 
 # Apply sysctl params without reboot
-sudo sysctl --system
+sysctl --system
 ```
 
 Verify br_netfilter and overlay are loaded:
@@ -223,11 +194,13 @@ net.bridge.bridge-nf-call-ip6tables = 1
 net.ipv4.ip_forward = 1
 ```
 
-### Assorted stuff that worked before
+### Initialize cluster - starting with the control plane node
 
-Ran `kubeadm init` and things seemed to work. "Your Kubernetes control-plane has initialized successfully."
+On the control plane node, initialize a cluster with: `kubeadm init`
 
-This information might come in handy.
+**Important: Worker nodes will need to join this cluster, so the initialization command and procedure is different.**
+
+When it's done, you should see instructions like the following:
 
 ```
 To start using your cluster, you need to run the following as a regular user:
@@ -250,23 +223,59 @@ kubeadm join 5.78.71.223:6443 --token dnwiob.gxlqqsj8xf1x68ne \
 	--discovery-token-ca-cert-hash sha256:bf3ecf6b38976838dc7b0092a2925bf0defa7891815b29a623896c15de2bee38
 ```
 
+The instructions suggest to run the cluster as a regular user, which makes sense for security reasons. You can also run as root, since it's easier to get things to work that way. In the long run, better to run as a user with limited permissions.
 
-The instructions suggest to run the cluster as a regular user, which makes sense for security reasons. So I created a user, `demo1`, and logged in via another terminal.
 
+### Install Cilium (or whichever Pod network works for you)
 
-### Pod network
+You need to add a pod network for your cluster. [Read about it here](https://kubernetes.io/docs/concepts/cluster-administration/addons/) I liked Cilium the best based on the brief descriptions of what is available.
 
-Which pod network to install?
+Options I considered:
+
 * Cilium - looks good: networking, observability, and security solution with an eBPF-based dataplane.
 * Calico - container network and security - open source
 * Multus - for attaching multiple network interfaces -- don't think we need that
 
-Going with [Cilium](https://docs.cilium.io/en/stable/gettingstarted/k8s-install-default/#install-the-cilium-cli) because it looks awesome. Also installation worked.
+* Install Cilium CLI
 
-Cilium 1.13.4 is installed.
+```sh
+CILIUM_CLI_VERSION=$(curl -s https://raw.githubusercontent.com/cilium/cilium-cli/master/stable.txt)
+CLI_ARCH=amd64
+if [ "$(uname -m)" = "aarch64" ]; then CLI_ARCH=arm64; fi
+curl -L --fail --remote-name-all https://github.com/cilium/cilium-cli/releases/download/${CILIUM_CLI_VERSION}/cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}
+sha256sum --check cilium-linux-${CLI_ARCH}.tar.gz.sha256sum
+sudo tar xzvfC cilium-linux-${CLI_ARCH}.tar.gz /usr/local/bin
+rm cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}apt 
+```
+
+* Now install Cilium with `cilium install`
+* Verify cilium install using `cilium status --wait`
+  * You should see something like this:
+
+```
+    /¯¯\
+ /¯¯\__/¯¯\    Cilium:             OK
+ \__/¯¯\__/    Operator:           OK
+ /¯¯\__/¯¯\    Envoy DaemonSet:    disabled (using embedded mode)
+ \__/¯¯\__/    Hubble Relay:       disabled
+    \__/       ClusterMesh:        disabled
+
+DaemonSet              cilium             Desired: 1, Ready: 1/1, Available: 1/1
+Deployment             cilium-operator    Desired: 1, Ready: 1/1, Available: 1/1
+Containers:            cilium             Running: 1
+                       cilium-operator    Running: 1
+Cluster Pods:          2/2 managed by Cilium
+Helm chart version:    1.13.4
+Image versions         cilium             quay.io/cilium/cilium:v1.13.4@sha256:bde8800d61aaad8b8451b10e247ac7bdeb7af187bb698f83d40ad75a38c1ee6b: 1
+                       cilium-operator    quay.io/cilium/operator-generic:v1.13.4@sha256:09ab77d324ef4d31f7d341f97ec5a2a4860910076046d57a2d61494d426c6301: 1
+```
 
 
-### Misc resources
+
+
+
+
+## Misc resources
 
 Recent releases of pre-reqs:
 
@@ -275,3 +284,6 @@ Recent releases of pre-reqs:
 * [cni plugin releases](https://github.com/containernetworking/plugins/releases)
 * [config example](https://github.com/containerd/containerd/blob/main/docs/man/containerd-config.toml.5.md)
   * although you can also get the default from containerd config and pipe that to the file
+
+I thought these generic releases were important before learning that packages are available for containerd. Presumably the packages are tuned for the flavor of Linux. (Perhaps, or maybe they adopt the common version without changing much. I suppose we don't need to worry about that for our demo system.)
+
