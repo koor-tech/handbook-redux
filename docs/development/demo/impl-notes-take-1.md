@@ -1,8 +1,8 @@
 ---
-title: Demo system - manual implementation notes
+title: Demo system - Dave's manual implementation notes
 ---
 
-# Demo system - manual implementation notes
+# Demo system - Dave's manual implementation notes
 
 These notes capture Dave's attempt to set up a demo system for shoring Koor Rook Ceph in Kubernetes. The [overview](index) defines the target system. As with all plans, they go bad at the first sign of trouble. The discovery of what worked is documented here.
 
@@ -270,9 +270,17 @@ Image versions         cilium             quay.io/cilium/cilium:v1.13.4@sha256:b
                        cilium-operator    quay.io/cilium/operator-generic:v1.13.4@sha256:09ab77d324ef4d31f7d341f97ec5a2a4860910076046d57a2d61494d426c6301: 1
 ```
 
+### Missing last step
 
+The next thing is to start the cluster and apply the config for Cilium. Wasn't able to find an example config file, which blocked me. Basically, I ran out of clues.
 
+So I ordered the course, [Kubernetes Fundamentals (LFS258) - Basics of Kubernetes | The Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-fundamentals/). After setting up my AWS account, the first action in the course is to prep a couple of nodes for K8s. Basically, it went through the same steps I have already learned, but also makes a few of the choices less ambiguous. Instead of Cilium, it uses Calico, but also says Cilium is a great up-and-coming option.
 
+What I learned so far from the course is that everything here is essentially correct and useful as a way to set things up. The course is useful because set-up is just the beginning. There's a lot more to get through, and no point in struggling without guidance.
+
+Also, I will not face the same resouce constraints on AWS. I have already set up a control plane node and one worker node. Now I can repeat the worker node set up to get some data nodes going.
+
+This is the end of the journal for now.
 
 
 ## Misc resources
