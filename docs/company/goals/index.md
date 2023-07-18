@@ -1,39 +1,14 @@
+---
+title: Koor Company Goals
+---
+
 # Goals
-
-## Survive
-
-1. Get Series A funding
-
-## Get funding at a great valuation
-
-1. Accumulate $1,000,000 ARR
-   1. Sell Pro subscriptions & help customers succeed
-   2. Sell consulting service
-   3. Close enterprise deals
-2. Grow installions (paid and trial) to 1,000 -- 4 times the number of Rook watchers (as of June)
-   1. Target Ceph users who have not adopted Rook
-   2. Get attention from newcomers through social marketing
-
-## June 2023
-
-1. GROWTH: Get 30 KSD trial and 5 KSD Pro registrations
-   1. Revamp website messaging to target DIY, our current customer base
-   2. Add knowledge center to website: blog, use cases, how-to videos, Koor documentation
-   3. Post a demo video showing the benefits of KSD, setting up one of the use cases
-   4. See the [strategy for adoption](./strategy-for-adoption)
-2. TECHNOLOGY: 
-   1. Add 5 improvements to KSD
-   2. Make 15 technical contributions to Rook and Ceph
-   3. Outline use cases (for block, object, and file storage) and explain possible configuration for each
-3. TEAM: Establish a baseline for teammates
-   1. Complete first employee performance reviews
-   2. Outline dev & support operations in Koor handbook
 
 ## Framing
 
 Koor serves those who are inclined to handle their own data storage. Koor strives to simplify the operation of Rook and Ceph, adding tools and enhancements to the open source solutions.
 
-As a company, Koor is five team mates strong. We need to earn the right to grow by proving the value of Koor.
+Koor Technologies, Inc., is a small but mighty start-up. We need to earn the right to grow by solving problems that are critical to customers.
 
 ## Stages
 
