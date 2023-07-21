@@ -98,6 +98,10 @@ export default withMermaid(
                   link: '/development/demo/',
                 },
                 {
+                  text: 'Vision for Demo System',
+                  link: '/development/demo/demo-system-mindmap',
+                },
+                {
                   text: '1st Impl Attempt',
                   link: '/development/demo/impl-notes-take-1',
                 },
