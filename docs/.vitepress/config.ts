@@ -28,6 +28,8 @@ export default withMermaid(
           text: 'Company',
           items: [
             { text: 'About', link: '/company/' },
+            { text: 'Mission', link: '/company/mission' },
+            { text: 'Vision', link: '/company/vision' },
             {
               text: 'Goals',
               link: '/company/goals/',
@@ -44,15 +46,23 @@ export default withMermaid(
                   text: 'July-Aug 2023',
                   link: '/company/goals/july-aug2023',
                 },
+              ],
+            },
+            {
+              text: 'Marketing',
+              link: '/company/marketing/',
+              items: [
+                { text: 'Branding', link: '/company/marketing/branding' },
+                {
+                  text: 'Social Media',
+                  link: '/company/marketing/social-media',
+                },
                 {
                   text: 'Strategy for Adoption',
-                  link: '/company/strategy-for-adoption',
+                  link: '/company/marketing/strategy-for-adoption',
                 },
               ],
             },
-            { text: 'Vision', link: '/company/vision' },
-            { text: 'Mission', link: '/company/mission' },
-            { text: 'Branding', link: '/company/branding' },
           ],
         },
         {
