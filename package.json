@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "mermaid": "^10.2.4",
-    "vitepress": "^1.0.0-beta.5",
+    "vitepress": "^1.0.0-beta.6",
     "vitepress-plugin-mermaid": "^2.0.13"
   },
   "scripts": {
