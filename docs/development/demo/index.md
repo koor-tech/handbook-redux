@@ -16,6 +16,8 @@ The environment should support real applications that make use of data. The demo
 
 When complete, the demo system should be spun up and down through automation. In fact, the more of this kind of automation we put into KSD, but better our chances of selling to big customers.
 
+[Demo System Vision](demo-system-mindmap)
+
 
 ## Features we want to showcase
 
