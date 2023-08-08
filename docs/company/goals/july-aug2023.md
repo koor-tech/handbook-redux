@@ -39,4 +39,3 @@ Starting mid-way through July. Needed 2 weeks to recover from June's results.
 ## TEAM
 
 1. Complete Kubernetes training for current level (different by person)
-

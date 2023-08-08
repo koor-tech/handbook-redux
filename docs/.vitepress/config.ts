@@ -18,8 +18,8 @@ export default withMermaid(
         { text: 'Home', link: '/' },
         { text: 'Company', link: '/company/' },
         { text: 'Employees', link: '/employees/' },
-        { text: 'Consulting', link: '/consulting/' },
         { text: 'Development', link: '/development/' },
+        { text: 'Support', link: '/consulting/' },
         { text: 'Examples', link: '/markdown-examples' },
       ],
 
@@ -73,21 +73,6 @@ export default withMermaid(
           ],
         },
         {
-          text: 'Consulting',
-          items: [
-            { text: 'Consulting Practice', link: '/consulting/' },
-            { text: 'Tracking Hours', link: '/consulting/tracking' },
-            { text: 'Assessments', link: '/consulting/assessments' },
-            { text: 'Customer Calls', link: '/consulting/customer-calls' },
-            { text: 'Keeping in Touch', link: '/consulting/keeping-in-touch' },
-            {
-              text: 'Performance Tuning',
-              link: '/consulting/performance-tuning',
-            },
-            { text: 'Troubleshooting', link: '/consulting/troubleshooting' },
-          ],
-        },
-        {
           text: 'Development',
           items: [
             {
@@ -117,6 +102,21 @@ export default withMermaid(
                 },
               ],
             },
+          ],
+        },
+        {
+          text: 'Support',
+          items: [
+            { text: 'Consulting Practice', link: '/consulting/' },
+            { text: 'Tracking Hours', link: '/consulting/tracking' },
+            { text: 'Assessments', link: '/consulting/assessments' },
+            { text: 'Customer Calls', link: '/consulting/customer-calls' },
+            { text: 'Keeping in Touch', link: '/consulting/keeping-in-touch' },
+            {
+              text: 'Performance Tuning',
+              link: '/consulting/performance-tuning',
+            },
+            { text: 'Troubleshooting', link: '/consulting/troubleshooting' },
           ],
         },
       ],

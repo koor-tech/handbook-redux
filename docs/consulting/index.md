@@ -1,12 +1,16 @@
 ---
-title: Consulting Practice
+title: Support Services
 ---
 
-# Koor's Consulting Practice
+# Koor's Support Services
 
-A majority of Koor's revenue potential hinges on offering professional services, a.k.a. consulting, to customers who are having issues with their Rook/Ceph data storage. While we intend for the balance of revenue to shift towards renewal software subscriptions, a key part of the business will always involve helping those who are stuck.
+In the beginning, Koor offered consulting as a way to attract customers and to provide opportunities to learn about customer needs. Whatever we can learn by helping customers is likely to be useful when coming up with great product that address underlying issues.
 
-This section of the handbook describes how we take care of customers with consulting engagements.
+However, Koor needs to be a product company in order to have the economics that will allow rapid growth. We need to be able to leverage the value of a great product line that generates healthy margins so that we can reinvest into making better software that solves more problems.
+
+Whatever the long-term motivation, serving customers well is the only path to sustained growth. While we talk about consulting, the overarching goal is for customers to feel supported by Koor. That could be through a helpful answer to a question, fulfilling a commitment to provide regular service, or standing by a customer in a time of need when their systems are in disarray.
+
+This section of the handbook describes how we take care of customers.
 
 - [Tracking hours](./tracking)
 - [Keeping in touch](./keeping-in-touch)
