@@ -1,4 +1,23 @@
-# Company Information
+# Koor Techies
+
+## Who We Are
+
+We are a small team of aspiring data storage experts. We work together to solve customer problems and create software that makes it easier to manage self-hosted data storage. 
+
+We are a remote team where each member is in a completely different location, spanning 3 continents and 5 countries. Our meetings are clustered during the 3 hours of overlap, which is only achieved by some teammate working later in their day. For this reason, asynchronous work is essential.
+
+Of all the names we tried, Koor Techies seems to sum things up. We are open to other ideas.
+
+## Watercooler
+
+One of our standing meetings is the watercooler. This is primarily a social meeting, designed to help us learn more about each other and to stay in touch with what's going on in life. Unlike a physical watercooler where people meet more-or-less by accident, our watercooler is an intentional opportunity to socialize.
+
+While it is okay to discuss work, it is better for this to be more of a fun connection point. Schedule separate meetings for serious work discussions. (Otherwise, no one will want to join the watercooler.)
+
+## Announcing time off
+
+Once you know you will take time off, make an annoucement in the people-ops channel to let the team know. For extended vacation (personal time off), let your manager know before announcing in case any adjustments to your plans are needed.
+
 
 - [Performance](performance.html)
 

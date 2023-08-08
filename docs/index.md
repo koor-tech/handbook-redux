@@ -12,16 +12,16 @@ hero:
   actions:
     - theme: brand
       text: Company Goals
-      link: /company/goals
+      link: /company/goals/
     - theme: alt
       text: Employees
       link: /employees/
     - theme: alt
-      text: Consulting
+      text: Support Practices
       link: /consulting/
     - theme: alt
-      text: Development
-      link: /development/
+      text: Demo System
+      link: /development/demo/
 
 features:
   - title: Company
