@@ -53,11 +53,19 @@ Our company Letterhead can be accessed [here](#TODO). This is read-only; make a 
 
 Our company slides should be based on a [standard template](#TODO).
 
-### Colors
+### Color Palette
 
-- Primary color: `#19dda5`, called "Medium Aquamarine"
-    - Darker version of primary color (e.g., for night mode): `#119671`, called "Paolo Veronese Green"
-- Secondary color: `#1d2628`, called "Charleston Green"
+Use primary and secondary as the base or main set of colors. Apply the accent color sparingly for calling attention to important things or to offer a visual break from "too much green." Use dark instead of black and light instead of white for backgrounds, etc.
+
+The palette was enhanced by [Colormind](http://colormind.io/bootstrap/#).
+
+```css
+$primary: #19dda5; // "java" a.k.a. "Medium Aquamarine"
+$secondary: #119671; // "jungle green" a.k.a. "Paolo Veronese Green"
+$accent: #9e809a; // "mountbatten pink"
+$light: #f6f5f6; // "wild sand"
+$dark: #1d2628; // "shark" a.k.a. "Charleston Green"
+```
 
 ### Logos
 
