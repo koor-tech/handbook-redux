@@ -4,60 +4,64 @@ title: Product Roadmap
 
 # Product Roadmap
 
-## You are here
 
-The Koor Storage Distribution includes features that work on top of Rook and Ceph to enhance the experience of storage professionals. Today, the KSD functionality includes the following:
+**Last updated:** 14 August 2023
+
+Timeline, features, goals
+
+## Past to Now
+
+Koor's primary product offering has been the Koor Storage Distribution (KSD). Strictly speaking, KSD is a fork of Rook with a handful of helpful scripts and documents added to the mix. More broadly, KSD includes a loosely organized set of features that enhance the experience of using Rook and Ceph for self-managed data storage. 
+
+### What we have called KSD
 
 * Koor Storage Distribution (KSD)
-  * Bundles latest stable release of Rook with additional tools from Koor
-  * A KSD license includes authorization to use everything in this list
+  * A fork of Rook that is kept at parity with the latest version.
 * Koor Operator
   * Installs KSD on any Kubernetes cluster, and sets up Rook Ceph storage
   * Uses Helm chart or CRDs to define storage
-  * Checks the status of storage
+  * Checks the status of storage, flagging the user of resources that are configured below minimum thresholds
 * Diagnostic scripts
-  * Gathers debugging information that is useful for troubleshooting issues in a Rook Ceph cluster
+  * Gathers debugging information from a running cluster for troubleshooting issues
 * Extended Ceph Exporter
   * Extends metrics exported from Promethius for improved utilization charts
+* Version service
+  * Checks for newer version of Ceph and Rook that could be adopted
 
-### Releases
+### No adoption so far
 
-* [Koor Operator v0.2.0](https://github.com/koor-tech/koor-operator/releases/tag/koor-operator-0.2.0)
-* [Extended Ceph Exporter v1.2.8](https://github.com/koor-tech/extended-ceph-exporter/releases/tag/extended-ceph-exporter-1.2.8)
-* [Koor gather info scripts](https://github.com/koor-tech/koor-gather-info)
+The real problem with what we have offered so far is that have had zero adoption that we know about. Perhaps a few have used the Koor Operator without our knowledge. Maybe some have taken a look. Either KSD was not well understood or the benefits were not useful enough to be worth the trouble of adopting or even trying it.
 
-
-## Work in progress
-
-The Koor team is working on 2 new features for the Koor Operator
-
-* Version update notifications -- issues an alert when a newer version of Ceph is available
-* Automated upgrades -- if there is a newer version of Ceph, upgrades your cluster (waits for user to initiate)
+Our customers to date are those who sought help with issues using Rook and Ceph. We are able to resolve issues and recommend improvements, so that has worked out. We need a much larger customer base, and we need customers to use our products.
 
 
-## Future
+## Next
 
-We are always looking for more ways to make running Rook Ceph storage in Kubernetes easier. Here are a few of the ideas we are thinking about for 2023.
+Our new product strategy is to offer a single, multi-faceted product. For now as a working title, let's call it the Koor Data Control Center (KDCC). That's what we are building and offering, even though we may try different names in our marketing and sales packaging.
 
-* Koor Dashboard
-  * Rook Ceph cluster visualization
-  * See your data cluster configuration in a browser
-  * Click on each component to see configuration and operational characteristics
-* Storage System Builder
-  * Start from one of the basic templates that match common use cases
-  * Adjust configuration options through a GUI
-  * One-click cluster provisioning and adjustments
-  * Integrates with Koor Dashboard
-* Security Tools
-  * Set up SSO access to underlying Ceph cluster
-* Troubleshooting Tools
-  * Performance tuning support
+Simply put, the KDCC is everything you need to see what is happening with your data storage systems and to change the system as needed. It's a single-pane-of-glass view that provides a common user interfaces for many perspectives of data storage operation. It is also offers GUI-based controls for setting up data storage, for tuning a running system, and to assist with larger modifications, like upgrades, expansion, and migrations.
 
+The components and features of the KDCC include the following.
 
-## Future future
+### Koor Dashboard
 
-* Storage System Builder
-* Backup and recovery
-  * Select data to back up, select a storage target, and schedule
-* Troubleshooting Tools
-  * Gap analysis - search Rook and Ceph features to find mismatches, identify what may be missing
+* A top-level view that shows critical system metrics and active alerts.
+* High-level operational charts with drill-downs to see the details of each subsystem.
+* Versions of Ceph, Rook, and installed extensions, with information about available updates.
+
+### Koor Controls
+
+* Control panels with editable fields for properties that can be modified.
+* Staging for changes that require restart.
+* Scrubbing schedules to ensure deep scrubbing happens frequently enough.
+
+### Data Storage Set-up
+
+* Koor Operator and Helm chart for installing the Koor Storage Distribution.
+* A selection of templates to match common use cases.
+* Automated system upgrades.
+* SSO integration.
+
+### Troubleshooting Tools
+
+* Diagnostic scripts to gather data to help pinpoint issues.
