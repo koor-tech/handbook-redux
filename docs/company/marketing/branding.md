@@ -59,11 +59,12 @@ Use primary and secondary as the base or main set of colors. Apply the accent co
 
 The palette was enhanced by [Colormind](http://colormind.io/bootstrap/#).
 
-```css
+```scss
 $primary: #19dda5; // "java" a.k.a. "Medium Aquamarine"
 $secondary: #119671; // "jungle green" a.k.a. "Paolo Veronese Green"
 $accent: #9e809a; // "mountbatten pink"
 $light: #f6f5f6; // "wild sand"
+$light-brighter: #f8f7f8; // "alabastar"
 $dark: #1d2628; // "shark" a.k.a. "Charleston Green"
 ```
 
