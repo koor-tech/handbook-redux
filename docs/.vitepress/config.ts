@@ -27,9 +27,7 @@ export default withMermaid(
         {
           text: 'Company',
           items: [
-            { text: 'About', link: '/company/' },
-            { text: 'Mission', link: '/company/mission' },
-            { text: 'Vision', link: '/company/vision' },
+            { text: 'About Koor', link: '/company/' },
             {
               text: 'Goals',
               link: '/company/goals/',
@@ -69,6 +67,7 @@ export default withMermaid(
           text: 'Employees',
           items: [
             { text: 'Who Powers Koor', link: '/employees/' },
+            { text: '1-on-1s', link: '/employees/1on1s' },
             { text: 'Performance', link: '/employees/performance' },
           ],
         },

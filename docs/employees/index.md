@@ -18,6 +18,6 @@ While it is okay to discuss work, it is better for this to be more of a fun conn
 
 Once you know you will take time off, make an annoucement in the people-ops channel to let the team know. For extended vacation (personal time off), let your manager know before announcing in case any adjustments to your plans are needed.
 
-
-- [Performance](performance.html)
+- [1-on-1s](1on1s)
+- [Performance](performance)
 

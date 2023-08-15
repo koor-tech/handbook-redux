@@ -4,12 +4,12 @@ title: Social Media
 
 # Social Media
 
-## Where ee post
+## Where we post
 
 These are the social media sites we post to.
 
 * Hacker News
-  * [new posts](https://news.ycombinator.com/submit)
+  * [new posts](https://news.ycombinator.com/submit) - unless your name is Dave, in which case they will shadow-ban you for talking too much about data
   * To observe trends: [Hakaran](https://www.hakaran.com/)
   * Sorted, filtered: [Hckr News](https://hckrnews.com/)
 * Twitter
