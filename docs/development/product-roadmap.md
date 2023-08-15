@@ -7,8 +7,6 @@ title: Product Roadmap
 
 **Last updated:** 14 August 2023
 
-Timeline, features, goals
-
 ## Past to Now
 
 Koor's primary product offering has been the Koor Storage Distribution (KSD). Strictly speaking, KSD is a fork of Rook with a handful of helpful scripts and documents added to the mix. More broadly, KSD includes a loosely organized set of features that enhance the experience of using Rook and Ceph for self-managed data storage. 
@@ -65,3 +63,17 @@ The components and features of the KDCC include the following.
 ### Troubleshooting Tools
 
 * Diagnostic scripts to gather data to help pinpoint issues.
+
+
+## MVP
+
+We do not know what a minimum-viable product is. We have to keep adding features until rates of adoption start to soar. 
+
+Rather than worrying about predicting an MVP, let's focus on choosing the next best feature to add and making that as valuable as possible.
+
+
+## Timeline
+
+We have to hurry. It is critical to put together a functioning alpha version of the KDCC by the end of August, which is about 15 calendar days away. The alpha does not have to do much other than serve as a good basis to continue adding features and functionality for the coming months.
+
+Once the architecture has been reviewed, and we select an initial feature set and define development tasks in Linear. This needs to be our top priority.
