@@ -28,6 +28,12 @@ export default withMermaid(
           text: 'Company',
           items: [
             { text: 'About Koor', link: '/company/' },
+            { text: 'Culture', link: '/company/culture' },
+            { text: 'Communication', link: '/company/communication' },
+            {
+              text: 'Operating Procedures',
+              link: '/company/operating-procedures',
+            },
             {
               text: 'Goals',
               link: '/company/goals/',
