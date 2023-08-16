@@ -87,7 +87,16 @@ export default withMermaid(
             { text: 'Development Practices', link: '/development/' },
             {
               text: 'Release Management',
-              link: '/development/release-management',
+              items: [
+                {
+                  text: 'Procedures',
+                  link: '/development/release-management',
+                },
+                {
+                  text: 'Release Checklist',
+                  link: '/development/release-checklist',
+                },
+              ],
             },
             { text: 'Infrastructure', link: '/development/infrastructure' },
             {
