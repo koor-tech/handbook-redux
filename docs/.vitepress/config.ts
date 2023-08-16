@@ -80,11 +80,11 @@ export default withMermaid(
         {
           text: 'Development',
           items: [
+            { text: 'Practices', link: '/development/' },
             {
               text: 'Product Roadmap',
               link: '/development/product-roadmap',
             },
-            { text: 'Development Practices', link: '/development/' },
             {
               text: 'Release Management',
               items: [

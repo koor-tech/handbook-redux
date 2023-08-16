@@ -1,5 +1,6 @@
 ---
 title: Culture
+outline: [2, 3]
 ---
 
 # Culture

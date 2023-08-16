@@ -1,5 +1,6 @@
 ---
 title: About Koor
+outline: [2, 3]
 mermaidTheme: forest
 ---
 
