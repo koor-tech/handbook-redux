@@ -4,7 +4,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
-    title: 'Koor Handbook',
+    title: 'Handbook',
     titleTemplate: ':title | Koor Technologies, Inc.',
     description: 'How we run our business',
 
