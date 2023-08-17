@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, DefaultTheme } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
@@ -7,9 +7,13 @@ export default withMermaid(
     title: 'Koor Handbook',
     titleTemplate: ':title | Koor Technologies, Inc.',
     description: 'How we run our business',
+
+    lastUpdated: true,
+
     head: [
       ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
     ],
+
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       logo: 'koor-logo.png',
@@ -17,10 +21,10 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Company', link: '/company/' },
-        { text: 'Employees', link: '/employees/' },
-        { text: 'Development', link: '/development/' },
+        { text: 'Development', link: '/engineering/development/' },
+        { text: 'Product', link: '/engineering/product/' },
+        { text: 'Marketing', link: '/marketing/' },
         { text: 'Support', link: '/customers/support/' },
-        { text: 'Examples', link: '/markdown-examples' },
       ],
 
       sidebar: [
@@ -185,6 +189,11 @@ export default withMermaid(
         },
         { icon: 'twitter', link: 'https://twitter.com/koor_tech' },
       ],
+
+      footer: {
+        message: 'MIT License',
+        copyright: 'Copyright © 2022-present Koor Technologies, Inc.',
+      },
     },
     markdown: {
       xhtmlOut: true,
