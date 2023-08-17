@@ -19,7 +19,7 @@ export default withMermaid(
         { text: 'Company', link: '/company/' },
         { text: 'Employees', link: '/employees/' },
         { text: 'Development', link: '/development/' },
-        { text: 'Support', link: '/consulting/' },
+        { text: 'Support', link: '/customers/support/' },
         { text: 'Examples', link: '/markdown-examples' },
       ],
 
@@ -43,95 +43,137 @@ export default withMermaid(
                   link: '/company/goals/annual2023',
                 },
                 {
-                  text: 'June 2023',
-                  link: '/company/goals/june2023',
-                },
-                {
                   text: 'July-Aug 2023',
                   link: '/company/goals/july-aug2023',
                 },
               ],
             },
             {
-              text: 'Marketing',
-              link: '/company/marketing/',
+              text: 'Employees',
               items: [
-                { text: 'Branding', link: '/company/marketing/branding' },
-                {
-                  text: 'Social Media',
-                  link: '/company/marketing/social-media',
-                },
-                {
-                  text: 'Strategy for Adoption',
-                  link: '/company/marketing/strategy-for-adoption',
-                },
+                { text: 'Who Powers Koor', link: '/company/employees/' },
+                { text: '1-on-1s', link: '/company/employees/1on1s' },
+                { text: 'Performance', link: '/company/employees/performance' },
               ],
             },
           ],
         },
         {
-          text: 'Employees',
+          text: 'Engineering',
+          link: '/engineering/',
           items: [
-            { text: 'Who Powers Koor', link: '/employees/' },
-            { text: '1-on-1s', link: '/employees/1on1s' },
-            { text: 'Performance', link: '/employees/performance' },
-          ],
-        },
-        {
-          text: 'Development',
-          items: [
-            { text: 'Practices', link: '/development/' },
             {
-              text: 'Product Roadmap',
-              link: '/development/product-roadmap',
-            },
-            {
-              text: 'Release Management',
+              text: 'Product Planning',
+              link: '/engineering/product/',
               items: [
                 {
-                  text: 'Procedures',
-                  link: '/development/release-management',
-                },
-                {
-                  text: 'Release Checklist',
-                  link: '/development/release-checklist',
+                  text: 'Product Roadmap',
+                  link: '/engineering/product/product-roadmap',
                 },
               ],
             },
-            { text: 'Infrastructure', link: '/development/infrastructure' },
+            {
+              text: 'Development',
+              items: [
+                { text: 'Practices', link: '/engineering/development/' },
+                {
+                  text: 'Release Management',
+                  items: [
+                    {
+                      text: 'Procedures',
+                      link: '/engineering/development/release-management',
+                    },
+                    {
+                      text: 'Release Checklist',
+                      link: '/engineering/development/release-checklist',
+                    },
+                  ],
+                },
+                {
+                  text: 'Infrastructure',
+                  link: '/engineering/development/infrastructure',
+                },
+              ],
+            },
+            {
+              text: 'Quality',
+              link: '/engineering/quality/',
+            },
             {
               text: 'Demo System',
               items: [
                 {
                   text: 'Overview',
-                  link: '/development/demo/',
+                  link: '/engineering/demo/',
                 },
                 {
                   text: 'Vision for Demo System',
-                  link: '/development/demo/demo-system-mindmap',
+                  link: '/engineering/demo/demo-system-mindmap',
                 },
                 {
                   text: '1st Impl Attempt',
-                  link: '/development/demo/impl-notes-take-1',
+                  link: '/engineering/demo/impl-notes-take-1',
+                },
+              ],
+            },
+            {
+              text: 'System Operations',
+              link: '/engineering/systemops/',
+            },
+          ],
+        },
+        {
+          text: 'Customer Success',
+          link: '/customers/',
+          items: [
+            {
+              text: 'Support',
+              link: '/customers/support/',
+              items: [
+                { text: 'Tracking Hours', link: '/customers/support/tracking' },
+                { text: 'Assessments', link: '/customers/support/assessments' },
+                {
+                  text: 'Customer Calls',
+                  link: '/customers/support/customer-calls',
+                },
+                {
+                  text: 'Keeping in Touch',
+                  link: '/customers/support/keeping-in-touch',
+                },
+                {
+                  text: 'Performance Tuning',
+                  link: '/customers/support/performance-tuning',
+                },
+                {
+                  text: 'Troubleshooting',
+                  link: '/customers/support/troubleshooting',
                 },
               ],
             },
           ],
         },
         {
-          text: 'Support',
+          text: 'Marketing',
+          link: '/marketing/',
           items: [
-            { text: 'Consulting Practice', link: '/consulting/' },
-            { text: 'Tracking Hours', link: '/consulting/tracking' },
-            { text: 'Assessments', link: '/consulting/assessments' },
-            { text: 'Customer Calls', link: '/consulting/customer-calls' },
-            { text: 'Keeping in Touch', link: '/consulting/keeping-in-touch' },
+            { text: 'Branding', link: '/marketing/branding' },
             {
-              text: 'Performance Tuning',
-              link: '/consulting/performance-tuning',
+              text: 'Social Media',
+              link: '/marketing/social-media',
             },
-            { text: 'Troubleshooting', link: '/consulting/troubleshooting' },
+            {
+              text: 'Strategy for Adoption',
+              link: '/marketing/strategy-for-adoption',
+            },
           ],
+        },
+        {
+          text: 'Sales',
+          link: '/sales/',
+        },
+        {
+          text: 'Security',
+          link: '/security/',
         },
       ],
 

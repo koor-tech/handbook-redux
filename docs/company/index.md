@@ -98,7 +98,7 @@ We love open source. In fact, Koor is one of the maintainers of the [Rook](https
 
 ## And more…
 
-That's not all. We have big harry audacious goals and some guidelines for marketing.
+That's not all. We have big, harry, audacious goals, and brilliant, hard-working people.
 
-- [Goals](goals/)
-- [Marketing](marketing/)
+[Goals](goals/)
+[Employees](employees/)

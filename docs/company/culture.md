@@ -49,6 +49,10 @@ If you are on the less technical side of things, never mind any of that. Just wr
 
 ## Rituals
 
+- Watercooler - for social chatting (although work slips in from time to time).
+- Demo Time - share something with the group, something you worked on, a bit of knowledge, someone cool that you found, a problem you are having, anything goes.
+- Retrospectives - time to think about what is working and what might be improved.
+
 
 ## Team Stories
 

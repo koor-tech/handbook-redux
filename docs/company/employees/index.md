@@ -1,3 +1,18 @@
+<script setup>
+    import { VPTeamMembers } from 'vitepress/theme'
+    const members = [
+        {
+            avatar: 'https://github.com/dave-at-koor.png',
+            name: 'Dave Mount',
+            title: 'CTO',
+            links: [
+                { icon: 'github', link: 'https://github.com/dave-at-koor' },
+                { icon: 'twitter', link: 'https://twitter.com/DaveOfSanRamon' },
+            ],
+        },
+    ]
+</script>
+
 # Koor Techies
 
 ## Who We Are
@@ -7,6 +22,8 @@ We are a small team of aspiring data storage experts. We work together to solve 
 We are a remote team where each member is in a completely different location, spanning 3 continents and 5 countries. Our meetings are clustered during the 3 hours of overlap, which is only achieved by some teammate working later in their day. For this reason, asynchronous work is essential.
 
 Of all the names we tried, Koor Techies seems to sum things up. We are open to other ideas.
+
+<VPTeamMembers size="small" :members="members" />
 
 ## Watercooler
 
