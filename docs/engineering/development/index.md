@@ -1,5 +1,6 @@
 ---
 title: Koor Software Development
+outline: [2, 3]
 ---
 
 # Development Practices

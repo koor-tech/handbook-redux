@@ -1,15 +1,19 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, DefaultTheme } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
-    title: 'Koor Handbook',
+    title: 'Handbook',
     titleTemplate: ':title | Koor Technologies, Inc.',
     description: 'How we run our business',
+
+    lastUpdated: true,
+
     head: [
       ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
     ],
+
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       logo: 'koor-logo.png',
@@ -17,19 +21,23 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Company', link: '/company/' },
-        { text: 'Employees', link: '/employees/' },
-        { text: 'Development', link: '/development/' },
-        { text: 'Support', link: '/consulting/' },
-        { text: 'Examples', link: '/markdown-examples' },
+        { text: 'Development', link: '/engineering/development/' },
+        { text: 'Product', link: '/engineering/product/' },
+        { text: 'Marketing', link: '/marketing/' },
+        { text: 'Support', link: '/customers/support/' },
       ],
 
       sidebar: [
         {
           text: 'Company',
           items: [
-            { text: 'About', link: '/company/' },
-            { text: 'Mission', link: '/company/mission' },
-            { text: 'Vision', link: '/company/vision' },
+            { text: 'About Koor', link: '/company/' },
+            { text: 'Culture', link: '/company/culture' },
+            { text: 'Communication', link: '/company/communication' },
+            {
+              text: 'Operating Procedures',
+              link: '/company/operating-procedures',
+            },
             {
               text: 'Goals',
               link: '/company/goals/',
@@ -39,85 +47,137 @@ export default withMermaid(
                   link: '/company/goals/annual2023',
                 },
                 {
-                  text: 'June 2023',
-                  link: '/company/goals/june2023',
-                },
-                {
                   text: 'July-Aug 2023',
                   link: '/company/goals/july-aug2023',
                 },
               ],
             },
             {
-              text: 'Marketing',
-              link: '/company/marketing/',
+              text: 'Employees',
               items: [
-                { text: 'Branding', link: '/company/marketing/branding' },
-                {
-                  text: 'Social Media',
-                  link: '/company/marketing/social-media',
-                },
-                {
-                  text: 'Strategy for Adoption',
-                  link: '/company/marketing/strategy-for-adoption',
-                },
+                { text: 'Who Powers Koor', link: '/company/employees/' },
+                { text: '1-on-1s', link: '/company/employees/1on1s' },
+                { text: 'Performance', link: '/company/employees/performance' },
               ],
             },
           ],
         },
         {
-          text: 'Employees',
-          items: [
-            { text: 'Who Powers Koor', link: '/employees/' },
-            { text: 'Performance', link: '/employees/performance' },
-          ],
-        },
-        {
-          text: 'Development',
+          text: 'Engineering',
+          link: '/engineering/',
           items: [
             {
-              text: 'Product Roadmap',
-              link: '/development/product-roadmap',
+              text: 'Product Planning',
+              link: '/engineering/product/',
+              items: [
+                {
+                  text: 'Product Roadmap',
+                  link: '/engineering/product/product-roadmap',
+                },
+              ],
             },
-            { text: 'Development Practices', link: '/development/' },
             {
-              text: 'Release Management',
-              link: '/development/release-management',
+              text: 'Development',
+              items: [
+                { text: 'Practices', link: '/engineering/development/' },
+                {
+                  text: 'Release Management',
+                  items: [
+                    {
+                      text: 'Procedures',
+                      link: '/engineering/development/release-management',
+                    },
+                    {
+                      text: 'Release Checklist',
+                      link: '/engineering/development/release-checklist',
+                    },
+                  ],
+                },
+                {
+                  text: 'Infrastructure',
+                  link: '/engineering/development/infrastructure',
+                },
+              ],
             },
-            { text: 'Infrastructure', link: '/development/infrastructure' },
+            {
+              text: 'Quality',
+              link: '/engineering/quality/',
+            },
             {
               text: 'Demo System',
               items: [
                 {
                   text: 'Overview',
-                  link: '/development/demo/',
+                  link: '/engineering/demo/',
                 },
                 {
                   text: 'Vision for Demo System',
-                  link: '/development/demo/demo-system-mindmap',
+                  link: '/engineering/demo/demo-system-mindmap',
                 },
                 {
                   text: '1st Impl Attempt',
-                  link: '/development/demo/impl-notes-take-1',
+                  link: '/engineering/demo/impl-notes-take-1',
+                },
+              ],
+            },
+            {
+              text: 'System Operations',
+              link: '/engineering/systemops/',
+            },
+          ],
+        },
+        {
+          text: 'Customer Success',
+          link: '/customers/',
+          items: [
+            {
+              text: 'Support',
+              link: '/customers/support/',
+              items: [
+                { text: 'Tracking Hours', link: '/customers/support/tracking' },
+                { text: 'Assessments', link: '/customers/support/assessments' },
+                {
+                  text: 'Customer Calls',
+                  link: '/customers/support/customer-calls',
+                },
+                {
+                  text: 'Keeping in Touch',
+                  link: '/customers/support/keeping-in-touch',
+                },
+                {
+                  text: 'Performance Tuning',
+                  link: '/customers/support/performance-tuning',
+                },
+                {
+                  text: 'Troubleshooting',
+                  link: '/customers/support/troubleshooting',
                 },
               ],
             },
           ],
         },
         {
-          text: 'Support',
+          text: 'Marketing',
+          link: '/marketing/',
           items: [
-            { text: 'Consulting Practice', link: '/consulting/' },
-            { text: 'Tracking Hours', link: '/consulting/tracking' },
-            { text: 'Assessments', link: '/consulting/assessments' },
-            { text: 'Customer Calls', link: '/consulting/customer-calls' },
-            { text: 'Keeping in Touch', link: '/consulting/keeping-in-touch' },
+            { text: 'Branding', link: '/marketing/branding' },
             {
-              text: 'Performance Tuning',
-              link: '/consulting/performance-tuning',
+              text: 'Social Media',
+              link: '/marketing/social-media',
             },
-            { text: 'Troubleshooting', link: '/consulting/troubleshooting' },
+            {
+              text: 'Strategy for Adoption',
+              link: '/marketing/strategy-for-adoption',
+            },
           ],
+        },
+        {
+          text: 'Sales',
+          link: '/sales/',
+        },
+        {
+          text: 'Security',
+          link: '/security/',
         },
       ],
 
@@ -129,6 +189,11 @@ export default withMermaid(
         },
         { icon: 'twitter', link: 'https://twitter.com/koor_tech' },
       ],
+
+      footer: {
+        message: 'MIT License',
+        copyright: 'Copyright © 2022-present Koor Technologies, Inc.',
+      },
     },
     markdown: {
       xhtmlOut: true,

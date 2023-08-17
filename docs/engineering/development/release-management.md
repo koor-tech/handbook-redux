@@ -1,5 +1,6 @@
 ---
 title: Release Management
+outline: [2, 3]
 ---
 
 # KSD Release Management

@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: Operating Handbook for Koor Technologies, Inc.
-  text: How we run our business
+  name: Koor Handbook
+  text: Minding our business
   tagline: Compounding daily, incremental improvements to build something amazing
   image:
     src: /koor-logo.png
@@ -14,14 +14,11 @@ hero:
       text: Company Goals
       link: /company/goals/
     - theme: alt
-      text: Employees
-      link: /employees/
-    - theme: alt
-      text: Support Practices
-      link: /consulting/
+      text: Product Roadmap
+      link: /engineering/product/product-roadmap
     - theme: alt
       text: Demo System
-      link: /development/demo/
+      link: /engineering/demo/
 
 features:
   - title: Company
@@ -30,14 +27,14 @@ features:
     linkText: What makes us tick
   - title: Employees
     details: All about our people
-    link: /employees/
+    link: /company/employees/
     linkText: Who we are
   - title: Development
-    details: How we build great software and contribute to the Rook Ceph open source community
-    link: /development/
+    details: How we build great software
+    link: /engineering/development/
     linkText: What we build
-  - title: Consulting / Support
+  - title: Customer Support
     details: Service we provide to customers in need
-    link: /consulting/
+    link: /customers/support/
     linkText: How we help
 ---

@@ -1,5 +1,6 @@
 ---
 title: Product Roadmap
+outline: [2, 3]
 ---
 
 # Product Roadmap
@@ -33,7 +34,7 @@ The real problem with what we have offered so far is that have had zero adoption
 Our customers to date are those who sought help with issues using Rook and Ceph. We are able to resolve issues and recommend improvements, so that has worked out. We need a much larger customer base, and we need customers to use our products.
 
 
-## Next
+## Next - Koor Data Control Center
 
 Our new product strategy is to offer a single, multi-faceted product. For now as a working title, let's call it the Koor Data Control Center (KDCC). That's what we are building and offering, even though we may try different names in our marketing and sales packaging.
 
