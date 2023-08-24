@@ -74,7 +74,11 @@ export default withMermaid(
             {
               text: 'Development',
               items: [
-                { text: 'Practices', link: '/engineering/development/' },
+                { text: 'Overview', link: '/engineering/development/' },
+                {
+                  text: 'Show and Tell',
+                  link: '/engineering/development/show-and-tell',
+                },
                 {
                   text: 'Release Management',
                   items: [
