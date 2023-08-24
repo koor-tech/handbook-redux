@@ -10,6 +10,14 @@
                 { icon: 'twitter', link: 'https://twitter.com/DaveOfSanRamon' },
             ],
         },
+        {
+            avatar: 'https://zalsader.com/assets/img/profile.png',
+            name: 'Zuhair AlSader',
+            title: 'Cloud Storage Engineer',
+            links: [
+                { icon: 'github', link: 'https://github.com/zalsader' },
+            ],
+        },
     ]
 </script>
 
