@@ -7,17 +7,13 @@ export default withMermaid(
     title: 'Handbook',
     titleTemplate: ':title | Koor Technologies, Inc.',
     description: 'How we run our business',
-
     lastUpdated: true,
-
     head: [
       ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
     ],
-
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       logo: 'koor-logo.png',
-
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Company', link: '/company/' },
@@ -26,7 +22,6 @@ export default withMermaid(
         { text: 'Marketing', link: '/marketing/' },
         { text: 'Support', link: '/customers/support/' },
       ],
-
       sidebar: [
         {
           text: 'Company',
@@ -79,7 +74,11 @@ export default withMermaid(
             {
               text: 'Development',
               items: [
-                { text: 'Practices', link: '/engineering/development/' },
+                { text: 'Overview', link: '/engineering/development/' },
+                {
+                  text: 'Show and Tell',
+                  link: '/engineering/development/show-and-tell',
+                },
                 {
                   text: 'Release Management',
                   items: [
