@@ -18,6 +18,15 @@
                 { icon: 'github', link: 'https://github.com/zalsader' },
             ],
         },
+        {
+            avatar: 'https://github.com/galexrt.png',
+            name: 'Alexander Trost',
+            title: 'Founding Engineer',
+            links: [
+                { icon: 'github', link: 'https://github.com/galexrt' },
+                { icon: 'twitter', link: 'https://twitter.com/galexrt' },
+            ],
+        },
     ]
 </script>
 
