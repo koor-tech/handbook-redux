@@ -2,12 +2,21 @@
     import { VPTeamMembers } from 'vitepress/theme'
     const members = [
         {
-            avatar: 'https://github.com/dave-at-koor.png',
-            name: 'Dave Mount',
-            title: 'CTO',
+            avatar: 'https://github.com/galexrt.png',
+            name: 'Alexander Trost',
+            title: 'Founding Engineer',
             links: [
-                { icon: 'github', link: 'https://github.com/dave-at-koor' },
-                { icon: 'twitter', link: 'https://twitter.com/DaveOfSanRamon' },
+                { icon: 'github', link: 'https://github.com/galexrt' },
+                { icon: 'twitter', link: 'https://twitter.com/galexrt' },
+            ],
+        },
+        {
+            avatar: 'https://github.com/ideepika.png',
+            name: 'Deepika Upadhyay',
+            title: 'Cloud Storage Engineer',
+            links: [
+                { icon: 'github', link: 'https://github.com/ideepika' },
+                { icon: 'twitter', link: 'https://twitter.com/i_deepika_' },
             ],
         },
         {
@@ -19,12 +28,12 @@
             ],
         },
         {
-            avatar: 'https://github.com/galexrt.png',
-            name: 'Alexander Trost',
-            title: 'Founding Engineer',
+            avatar: 'https://github.com/dave-at-koor.png',
+            name: 'Dave Mount',
+            title: 'CTO',
             links: [
-                { icon: 'github', link: 'https://github.com/galexrt' },
-                { icon: 'twitter', link: 'https://twitter.com/galexrt' },
+                { icon: 'github', link: 'https://github.com/dave-at-koor' },
+                { icon: 'twitter', link: 'https://twitter.com/DaveOfSanRamon' },
             ],
         },
     ]
@@ -34,7 +43,7 @@
 
 ## Who We Are
 
-We are a small team of aspiring data storage experts. We work together to solve customer problems and create software that makes it easier to manage self-hosted data storage. 
+We are a small team of aspiring data storage experts. We work together to solve customer problems and create software that makes it easier to manage self-hosted data storage.
 
 We are a remote team where each member is in a completely different location, spanning 3 continents and 5 countries. Our meetings are clustered during the 3 hours of overlap, which is only achieved by some teammate working later in their day. For this reason, asynchronous work is essential.
 
@@ -54,4 +63,3 @@ Once you know you will take time off, make an annoucement in the people-ops chan
 
 - [1-on-1s](1on1s)
 - [Performance](performance)
-
