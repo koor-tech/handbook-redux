@@ -25,6 +25,14 @@
             links: [
                 { icon: 'github', link: 'https://github.com/galexrt' },
                 { icon: 'twitter', link: 'https://twitter.com/galexrt' },
+	},
+	{
+            avatar: 'https://github.com/ideepika/personal_info/blob/main/deepika_koor_headshot.png',
+            name: 'Deepika Upadhyay',
+            title: 'Cloud Storage Engineer',
+            links: [
+                { icon: 'github', link: 'https://github.com/ideepika' },
+                { icon: 'twitter', link: 'https://twitter.com/i_deepika_' },
             ],
         },
     ]
