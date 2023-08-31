@@ -7,6 +7,8 @@ outline: [2, 3]
 
 **Last updated:** 31 August 2023
 
+[Previous road map here](./product-roadmap-previous.md)
+
 ## Koor Data Control Center
 
 Koor's primary product offering is the Koor Data Control Center. This product includes a collection of software projects that work together to make Rook Ceph data storage as easy as possible.
