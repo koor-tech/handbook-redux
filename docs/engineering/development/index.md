@@ -24,24 +24,23 @@ Development happens in cycles. A few key cycles drive our work.
 
 Projects cut across cycles. Larger projects can have milestones that target specific outcomes on a shorter timeline.
 
-
 ## Dev Activities
 
 Our weekly dev cycle includes the following activities.
 
-1. **Unstructured time** 
+1. **Unstructured time**
    - vast majority of the week
    - for coding and creating related artifacts: requirements, designs, usage guides, demos, etc.
-2. **Planning** 
+2. **Planning**
    - Review projects in Linear.
    - Update issue statuses, and make sure everyone has assignments for the next week.
    - Avoid having too much or too little work in progress.
-3. **[Show and tell](show-and-tell)** 
+3. **Progress review &ndash; [Show and tell](show-and-tell)**
    - to show the results for the past week
    - Follow the link and review the protocol for sharing your work with the team.
    - Help your colleagues by reviewing their work, asking questions, and suggesting improvement ideas.
-4. **Retrospective** 
-   - Once a month or as needed (when people want to unpack a particular incident). 
+4. **Retrospective**
+   - Once a month or as needed (when people want to unpack a particular incident).
    - Reflect on recent past. Acknowledge what is working, and call out what could be better.
 5. **Release demos**
    - For recording demonstrations of features to share with the world.
@@ -61,7 +60,6 @@ We use [Linear](https://linear.app/) to manage and record our work.
 Our repositories are kept at [GitHub](https://github.com/koor-tech).
 <Badge type="warning" text="ToDo" /> Let's build a complete list at some point.
 
-
 ## Development Stages
 
 ### Feature requirements and functional design
@@ -74,12 +72,11 @@ User stories help to define all of the angles of a use case. A story takes the f
 
 > A \<class-of-user\> wants to \<action-to-take\> so that \<desired-effect-of-action\>.
 
-For example: 
+For example:
 
-> A *salesperson* wants to *keep a list of prospective customers* so that *he or she can send promotional coupons*.
+> A _salesperson_ wants to _keep a list of prospective customers_ so that _he or she can send promotional coupons_.
 
 Under that heading, describe all of the functional details the system should handle to make this happen. A functional detail defines what should happen, not how. Leave the question of how to those implementing the features.
-
 
 ### Working on stories
 
@@ -92,7 +89,6 @@ Under that heading, describe all of the functional details the system should han
    4. Add a system test to cover the happy path where everything is working.
 2. Do a PR on your story. Make adjustments based on review comments.
 3. Stage completed work as you go. We should be able to use all of the completed stories at the end of each cycle.
-
 
 ### Implementation
 
