@@ -45,7 +45,7 @@ Consider the audience for your message.
 
 ## Meetings
 
-Although related to communication, this might need it's own page. Someday...
+Although related to communication, this might need its own page. Someday...
 
 ### Progress Reviews
 
