@@ -110,14 +110,6 @@ export default withMermaid(
                   link: '/engineering/demo/',
                 },
                 {
-                  text: 'Vision for Demo System',
-                  link: '/engineering/demo/demo-system-mindmap',
-                },
-                {
-                  text: '1st Impl Attempt',
-                  link: '/engineering/demo/impl-notes-take-1',
-                },
-                {
                   text: 'Installing KDCC',
                   link: '/engineering/demo/installing-kdcc.md',
                 },
