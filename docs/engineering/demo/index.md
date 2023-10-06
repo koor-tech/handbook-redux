@@ -88,7 +88,7 @@ The best demonstration will show how the system changes in response to activity 
 
 We can be creative. Here are a few ideas for getting started.
 
-1. Run Mastadon - this requires a Postgres database and gives us an interface for "generating" data. Plus we can have fun with it for demos.
+1. Run [Mastodon](https://github.com/mastodon/mastodon) - this requires a Postgres database and gives us an interface for "generating" data. Plus we can have fun with it for demos.
 2. Have a bot that adds and removes files from S3 buckets. Could be a short script with some randomness and a set of files to choose from. Set up a cron job to run the script every 5 minutes or so. Set some limits to avoid filling a drive and crashing the system.
 3. Set up a CDN with license-free content. We can use our YouTube videos, download a collection of Google fonts, anything that we are allowed to distribute. Then host a static website or SPA from the CDN.
 4. Other ideas? An example of AI?
