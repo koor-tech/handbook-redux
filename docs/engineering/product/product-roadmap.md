@@ -97,16 +97,16 @@ Once we have all of the features defined here, that will be our first beta relea
 
 The features for beta include working features that establish a basis for future expansion:
 
-- Authentication
-- Dashboard with key metrics, including software versions
-- At least one control panel that lets users change system parameters one-by-one
+- :white_check_mark: Authentication
+- :white_check_mark: Dashboard with key metrics, including software versions
+- At least one control that lets users change the system
 - Automated upgrades
-- An interface for applying a named set of changes that suit a particular use case
+- Prototype of interface for applying a named set of changes that suit a particular use case
   - Choose a simple pattern
 
 ### 1.0 Release
 
-We will reach this milestone when beta features are working.
+We will reach this milestone when beta features are working well. Includes handling for one or more major problems: backend is unresponsive, CP is down, etc.
 
 ## Timeline
 
@@ -114,7 +114,7 @@ Our timeline will be tight. We need to hurry without rushing. In other words, we
 
 ```mermaid
 timeline
-    7-Sept : First alpha 0.1.0
-    28-Sept : First beta
-    12-Oct : 1.0 Release
+    21-Sept : First alpha 0.1.1
+    9-Nov : First beta
+    14-Dec : 1.0 Release
 ```
