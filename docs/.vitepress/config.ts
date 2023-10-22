@@ -76,6 +76,10 @@ export default withMermaid(
               items: [
                 { text: 'Overview', link: '/engineering/development/' },
                 {
+                  text: 'Project Owners',
+                  link: '/engineering/development/project-owner',
+                },
+                {
                   text: 'Show and Tell',
                   link: '/engineering/development/show-and-tell',
                 },
