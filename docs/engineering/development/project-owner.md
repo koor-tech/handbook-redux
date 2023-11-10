@@ -35,15 +35,3 @@ The project owner:
   - We could also switch project owners, ideally once we get closure by reaching the next milestone
 
 The owner does not have to do all of the work. Everyone is responsible for picking up items from any project they are helping with. People should update Linear for the parts they work on. People should demonstrate sub-systems that they build.
-
-## Initial assignments
-
-To get things started, here is a proposal.
-
-| Project Owner | Project                  |
-| ------------- | ------------------------ |
-| Javier        | Koor Data Control Center |
-| Zuhair        | Demo System              |
-| Alexander     | Customer Support         |
-| Deepika       | Knowledge Base           |
-| Dave          | Website / Account System |
