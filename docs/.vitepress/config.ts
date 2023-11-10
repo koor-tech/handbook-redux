@@ -45,6 +45,10 @@ export default withMermaid(
                   text: 'July-Aug 2023',
                   link: '/company/goals/july-aug2023',
                 },
+                {
+                  text: 'Nov-Dec 2023',
+                  link: '/company/goals/nov-dec2023',
+                },
               ],
             },
             {
