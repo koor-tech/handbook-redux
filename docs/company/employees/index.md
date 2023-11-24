@@ -11,15 +11,6 @@
             ],
         },
         {
-            avatar: 'https://github.com/ideepika.png',
-            name: 'Deepika Upadhyay',
-            title: 'Cloud Storage Engineer',
-            links: [
-                { icon: 'github', link: 'https://github.com/ideepika' },
-                { icon: 'twitter', link: 'https://twitter.com/i_deepika_' },
-            ],
-        },
-        {
             avatar: 'https://zalsader.com/assets/img/profile.png',
             name: 'Zuhair AlSader',
             title: 'Cloud Storage Engineer',
@@ -28,9 +19,18 @@
             ],
         },
         {
+            avatar: 'https://github.com/Javlopez.png',
+            name: 'Javier Lopez Lopez',
+            title: 'Cloud Storage Engineer',
+            links: [
+                { icon: 'github', link: 'https://github.com/Javlopez' },
+                { icon: 'twitter', link: 'https://twitter.com/devjlopez' },
+            ],
+        },
+        {
             avatar: 'https://github.com/dave-at-koor.png',
             name: 'Dave Mount',
-            title: 'CTO',
+            title: 'Founder, CTO',
             links: [
                 { icon: 'github', link: 'https://github.com/dave-at-koor' },
                 { icon: 'twitter', link: 'https://twitter.com/DaveOfSanRamon' },

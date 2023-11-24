@@ -33,6 +33,7 @@ export default withMermaid(
               text: 'Operating Procedures',
               link: '/company/operating-procedures',
             },
+            { text: 'Company Holidays', link: '/company/holiday-policy' },
             {
               text: 'Goals',
               link: '/company/goals/',
