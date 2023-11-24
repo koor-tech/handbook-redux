@@ -15,3 +15,7 @@ Accumulate $1,000,000 ARR through software subscriptions
 ## 3. Turn Koor into a valuable brand
 
 Make Koor software so useful that everyone with Rook Ceph has it installed somewhere.
+
+# 2024
+
+Coming soon...
