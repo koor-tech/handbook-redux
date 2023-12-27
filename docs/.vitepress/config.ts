@@ -57,6 +57,7 @@ export default withMermaid(
               items: [
                 { text: 'Who Powers Koor', link: '/company/employees/' },
                 { text: '1-on-1s', link: '/company/employees/1on1s' },
+                { text: 'On-boarding', link: '/company/employees/onboarding' },
                 { text: 'Performance', link: '/company/employees/performance' },
               ],
             },
