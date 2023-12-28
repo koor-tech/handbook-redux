@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Company Goals
-      link: /company/goals/
+      link: /company/goals/annual2024
     - theme: alt
       text: Product Roadmap
       link: /engineering/product/product-roadmap

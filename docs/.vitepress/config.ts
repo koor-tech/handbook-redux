@@ -29,27 +29,12 @@ export default withMermaid(
             { text: 'About Koor', link: '/company/' },
             { text: 'Culture', link: '/company/culture' },
             { text: 'Communication', link: '/company/communication' },
-            {
-              text: 'Operating Procedures',
-              link: '/company/operating-procedures',
-            },
             { text: 'Company Holidays', link: '/company/holiday-policy' },
             {
               text: 'Goals',
-              link: '/company/goals/',
               items: [
-                {
-                  text: '2023',
-                  link: '/company/goals/annual2023',
-                },
-                {
-                  text: 'July-Aug 2023',
-                  link: '/company/goals/july-aug2023',
-                },
-                {
-                  text: 'Nov-Dec 2023',
-                  link: '/company/goals/nov-dec2023',
-                },
+                { text: '2024', link: '/company/goals/annual2024' },
+                { text: '2023', link: '/company/goals/annual2023' },
               ],
             },
             {
