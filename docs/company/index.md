@@ -92,7 +92,6 @@ We love open source. In fact, Koor is one of the maintainers of the [Rook](https
 
 [Culture](culture)
 [Communication](communication)
-[Operating Procedures](operating-procedures)
-[Goals](goals/)
+[Goals](goals/annual2024)
 [Employees](employees/)
 [Company Holidays](holiday-policy)

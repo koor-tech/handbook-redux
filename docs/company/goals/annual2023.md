@@ -16,6 +16,8 @@ Accumulate $1,000,000 ARR through software subscriptions
 
 Make Koor software so useful that everyone with Rook Ceph has it installed somewhere.
 
-# 2024
+# Short-term goals from 2023
 
-Coming soon...
+- [June](june2023)
+- [July-August](july-aug2023)
+- [November-December](nov-dec2023)

@@ -15,4 +15,4 @@ title: Goals thru the end of 2023
 ## Adoption / Sales
 
 - Show a positive trend in adoption
-- Meet or exceed [sales targets](/sales/)
+- Meet or exceed [sales targets](/sales/targets-end2023)
