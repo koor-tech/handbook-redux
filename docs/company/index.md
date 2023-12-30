@@ -94,4 +94,4 @@ We love open source. In fact, Koor is one of the maintainers of the [Rook](https
 [Communication](communication)
 [Goals](goals/annual2024)
 [Employees](employees/)
-[Company Holidays](holiday-policy)
+[Company Holidays](time-off#company-holidays))
