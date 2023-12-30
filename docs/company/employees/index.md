@@ -7,7 +7,7 @@
             title: 'Founding Engineer',
             links: [
                 { icon: 'github', link: 'https://github.com/galexrt' },
-                { icon: 'twitter', link: 'https://twitter.com/galexrt' },
+                { icon: 'x', link: 'https://x.com/galexrt' },
             ],
         },
         {
@@ -24,7 +24,7 @@
             title: 'Cloud Storage Engineer',
             links: [
                 { icon: 'github', link: 'https://github.com/Javlopez' },
-                { icon: 'twitter', link: 'https://twitter.com/devjlopez' },
+                { icon: 'x', link: 'https://x.com/devjlopez' },
             ],
         },
         {
@@ -33,7 +33,25 @@
             title: 'Founder, CTO',
             links: [
                 { icon: 'github', link: 'https://github.com/dave-at-koor' },
-                { icon: 'twitter', link: 'https://twitter.com/DaveOfSanRamon' },
+                { icon: 'x', link: 'https://x.com/DaveOfSanRamon' },
+            ],
+        },
+        {
+            avatar: '',
+            name: 'Ian Furst',
+            title: 'Cloud Storage Engineer',
+            links: [
+                { icon: 'github', link: '' },
+                { icon: 'x', link: 'https://x.com/' },
+            ],
+        },
+        {
+            avatar: '',
+            name: 'Aaron Johnson',
+            title: 'Cloud Storage Engineer',
+            links: [
+                { icon: 'github', link: '' },
+                { icon: 'x', link: 'https://x.com/' },
             ],
         },
     ]

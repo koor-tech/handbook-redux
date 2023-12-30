@@ -29,7 +29,10 @@ export default withMermaid(
             { text: 'About Koor', link: '/company/' },
             { text: 'Culture', link: '/company/culture' },
             { text: 'Communication', link: '/company/communication' },
-            { text: 'Company Holidays', link: '/company/holiday-policy' },
+            {
+              text: 'Time Off',
+              link: '/company/time-off',
+            },
             {
               text: 'Goals',
               items: [
