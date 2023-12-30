@@ -7,7 +7,7 @@
             title: 'Founding Engineer',
             links: [
                 { icon: 'github', link: 'https://github.com/galexrt' },
-                { icon: 'twitter', link: 'https://x.com/galexrt' },
+                { icon: 'x', link: 'https://x.com/galexrt' },
             ],
         },
         {
@@ -24,7 +24,7 @@
             title: 'Cloud Storage Engineer',
             links: [
                 { icon: 'github', link: 'https://github.com/Javlopez' },
-                { icon: 'twitter', link: 'https://x.com/devjlopez' },
+                { icon: 'x', link: 'https://x.com/devjlopez' },
             ],
         },
         {
@@ -33,7 +33,7 @@
             title: 'Founder, CTO',
             links: [
                 { icon: 'github', link: 'https://github.com/dave-at-koor' },
-                { icon: 'twitter', link: 'https://x.com/DaveOfSanRamon' },
+                { icon: 'x', link: 'https://x.com/DaveOfSanRamon' },
             ],
         },
         {
@@ -42,7 +42,7 @@
             title: 'Cloud Storage Engineer',
             links: [
                 { icon: 'github', link: '' },
-                { icon: 'twitter', link: 'https://x.com/' },
+                { icon: 'x', link: 'https://x.com/' },
             ],
         },
         {
@@ -51,7 +51,7 @@
             title: 'Cloud Storage Engineer',
             links: [
                 { icon: 'github', link: '' },
-                { icon: 'twitter', link: 'https://x.com/' },
+                { icon: 'x', link: 'https://x.com/' },
             ],
         },
     ]
