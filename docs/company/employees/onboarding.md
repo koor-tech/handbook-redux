@@ -36,9 +36,10 @@ Follow this checklist so that new joiners have a reasonably smooth experience ge
 - Slack
 - Linear
 - GitHub
+- Cloudflare
+- Hetzner
 - Zoom
 - Calendly, for anyone who might meet with customers or conduct interviews
-- Hetzner
 
 ## Invite to Meetings
 
