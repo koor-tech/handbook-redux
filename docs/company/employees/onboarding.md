@@ -79,3 +79,20 @@ To make sure you are set up for the systems we use, try to accomplish these task
   - You will also need to learn some conventions for checking in, like using a well-formatted commit message
   - You will go through the PR process
   - Finally, you will learn how to propose changes to our practices and their documentation
+
+# Recommendations
+
+Subscribe to the following Slack channels:
+
+- announcements
+- ask-development
+- cust-service
+- general
+- people-ops
+- proj-blog
+- proj-demo
+- proj-github
+- proj-handbook
+- random
+
+Plus may browse and join any others that strike your fancy.
