@@ -31,15 +31,31 @@ Follow this checklist so that new joiners have a reasonably smooth experience ge
     - keep password safe - have employee change it immediately
   - add to groups
     - Employees
+
+After setting up the account, send the following instructions to the employee's personal email.
+
+```
+Go here to login: https://www.google.com/gmail/about/#inbox
+
+Click the Sign In button in the upper right corner.
+If you already use Gmail, add another account.
+
+username:
+password:
+```
+
 - 1Password
   - Add as team member
 - Slack
 - Linear
 - GitHub
+
+As needed:
+
 - Cloudflare
 - Hetzner
 - Zoom
-- Calendly, for anyone who might meet with customers or conduct interviews
+- Calendly
 
 ## Invite to Meetings
 
