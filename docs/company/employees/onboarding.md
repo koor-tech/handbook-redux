@@ -31,15 +31,31 @@ Follow this checklist so that new joiners have a reasonably smooth experience ge
     - keep password safe - have employee change it immediately
   - add to groups
     - Employees
+
+After setting up the account, send the following instructions to the employee's personal email.
+
+```
+Go here to login: https://www.google.com/gmail/about/#inbox
+
+Click the Sign In button in the upper right corner.
+If you already use Gmail, add another account.
+
+username:
+password:
+```
+
 - 1Password
   - Add as team member
 - Slack
 - Linear
 - GitHub
+
+As needed:
+
 - Cloudflare
 - Hetzner
 - Zoom
-- Calendly, for anyone who might meet with customers or conduct interviews
+- Calendly
 
 ## Invite to Meetings
 
@@ -63,3 +79,20 @@ To make sure you are set up for the systems we use, try to accomplish these task
   - You will also need to learn some conventions for checking in, like using a well-formatted commit message
   - You will go through the PR process
   - Finally, you will learn how to propose changes to our practices and their documentation
+
+# Recommendations
+
+Subscribe to the following Slack channels:
+
+- announcements
+- ask-development
+- cust-service
+- general
+- people-ops
+- proj-blog
+- proj-demo
+- proj-github
+- proj-handbook
+- random
+
+Plus may browse and join any others that strike your fancy.
