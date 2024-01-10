@@ -6,7 +6,7 @@ title: Goals for 2024
 
 ## 1. Grow annual revenue to $1MM
 
-- Do this to have a chance to get Series A funding.
+- Do this to have a chance to get Seed funding.
 - The sooner the better.
 
 ## 2. Aquire 100 new customers, including 10 enterprise customers
@@ -38,4 +38,4 @@ Near-term goals based on our new strategy that support our annual goals.
 ## 3. Acquire 1 enterprise-scale customer (50+ nodes)
 
 - We need to attract at least one larger company to place on our marquee.
-- This is orthoganal to the revenue goal.
+- This is orthogonal to the revenue goal.

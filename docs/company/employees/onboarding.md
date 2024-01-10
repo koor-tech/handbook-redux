@@ -80,7 +80,13 @@ To make sure you are set up for the systems we use, try to accomplish these task
   - You will go through the PR process
   - Finally, you will learn how to propose changes to our practices and their documentation
 
-# Recommendations
+# For the On-boarding Employee
+
+## Rules of thumb
+
+- For anything that requires payment, check with Dave.
+
+## Recommendations
 
 Subscribe to the following Slack channels:
 
