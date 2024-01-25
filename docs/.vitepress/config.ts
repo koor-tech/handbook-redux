@@ -167,6 +167,9 @@ export default withMermaid(
         {
           text: 'Sales',
           link: '/sales/',
+          items: [
+            { text: '2024 Targets', link: '/sales/targets-2024' },
+          ]
         },
         {
           text: 'Security',
