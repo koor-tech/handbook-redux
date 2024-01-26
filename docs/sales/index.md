@@ -27,7 +27,7 @@ We will also do extra projects that go above and beyond. Examples of such projec
 - 24/7 emergency response SLAs.
 - Data migration where we set up and manage the move.
 - Disaster recovery planning, practice drills, and actual recovery from data loss due to circumstances outside of normal Ceph operation
-  - The normal problems, like disc failures, are handled under **Managed Ceph**. These should not be disasters because we are doing preventative maintenance.
+  - The normal problems, like disc failures, are handled under **Managed Ceph**. These problems should not be disastrous because we are doing preventative maintenance.
 - Additional security and compliance work.
 - Other requests as needed...
 
@@ -52,7 +52,8 @@ There are a couple of simple steps to become a Koor customer.
       - Nodes are a reasonable proxy of the scale of data storage, regardless of how much actual and usable storage is available.
       - Customers may have one or more clusters, each with 4 or more nodes. We have a 4-node minimum per cluster for production. Anything less is fine for non-production uses. Koor only charges for production systems.
 3. Payment is typically due immediately with a net 30 grace period.
-   1. Other arrangements - such as an installment plan - are possible, especially for larger scale operations. Details should be discussed when the contract is executed.
+   1. We take payment via Stripe and Bill. We can also take direct deposit (ACH), which saves on fees.
+   2. Other arrangements - such as an installment plan - are possible, especially for larger scale operations. Details should be discussed when the contract is executed.
 
 Once we have a signed contract, work will begin. If payment is not made by the due date, work may be suspended until that is sorted out.
 
