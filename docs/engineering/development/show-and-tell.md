@@ -1,9 +1,9 @@
 ---
-title: Show and Tell
+title: Progress Reviews
 outline: [2, 3]
 ---
 
-# Show and Tell
+# Progress Reviews
 
 ## Purpose
 
