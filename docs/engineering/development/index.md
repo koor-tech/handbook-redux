@@ -111,4 +111,5 @@ When we build a release (see [Release Management](release-management)), we need 
 [Project Owner Role](project-owner) - who is responsible for getting things done
 [Show and Tell](show-and-tell) - sharing details of our work as we go
 [Infrastructure](infrastructure) - the systems that support development
+[Linear Guidelines](linear-guidelines) - how we use Linear to manage development work
 [Release Management](release-management) - how we package software and make it available to customers

@@ -74,7 +74,11 @@ export default withMermaid(
                   link: '/engineering/development/project-owner',
                 },
                 {
-                  text: 'Show and Tell',
+                  text: 'Linear Guidelines',
+                  link: '/engineering/development/linear-guidelines',
+                },
+                {
+                  text: 'Progress Reviews',
                   link: '/engineering/development/show-and-tell',
                 },
                 {
